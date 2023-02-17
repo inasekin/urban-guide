@@ -2,19 +2,18 @@
 #include <stdlib.h>
 
 int main() {
-    int t;
-    t = 31;
-    if (t > 10) {
-        printf("www");
-        if (t > 20) {
-            printf("123");
-        }
-        if (t > 30) {
-            printf("ddd\nt = %d", t);
-        }
-    } else {
-        printf("ggg");
-    }
-
-    return 7;
+    int x, y;
+    printf("Введите значение переменной x = ", x);
+    scanf("%d", &x);
+    printf("Введите значение переменной y = ", y);
+    scanf("%d", &y);
+    printf("Переменная x = %d\nПеременная y = %d\n");
+    printf("%d * %d = %d", x, y, x * y); // Умножение
+    printf("\n");
+    printf("%d / %d = %d", x, y, x / y); // Деление
+    printf("\n");
+    printf("%d + %d = %d", x, y, x + y); // Сложение
+    printf("\n");
+    printf("%d - %d = %d", x, y, x - y); // Вычитание x - y
+    return 0;
 }
